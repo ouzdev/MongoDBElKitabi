@@ -14,6 +14,16 @@ NoSQL veritabanı sistemlerinde verilere erişmek ve yönetmek için veri modell
 
 Peki NoSQL adının anlamı nedir ? bunu benim bir zamanlar merak ettiğim gibi sizinde merak ettiğinizi düşünüyorum. Kısaca **NoSQL, veri modelinin ilişkisel olduğu ve sorgu dilininin SQL olmadığında kullanılan bir terimdir.** oldukça manidar değil mi ?
 
+**NoSQL** veritabanı sistemleri yapılarına göre gruplara ayrılır.
+![enter image description here](https://dist.neo4j.com/wp-content/uploads/20181127035440/nosql-database-technologies-quadrant.png)
+
+**Döküman tabanlı** : Bu yapıda veriler döküman olarak saklanır. Bkz. MongoDB, CouchDB
+
+**Anahtar / Değer tabanlı** : Bu yapıda veriler anahtar değer ikisi olarak saklanırlar. Bkz. Redis, Memcached
+
+**Grafik Tabanlı** : Bu yapıda veriler çizgi (graf) düğüm şeklinde birbirlerine bağlı şekilde saklanırlar. Bkz. ArongoDB.
+
+**Sütun Tabanlı** : Bu yapıda veriler satırlar yerine sütunlarda saklanır. Bkz. Cassandra,Hbase.
 
 
 ## MongoDB Tarihi
